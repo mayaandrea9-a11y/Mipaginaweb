@@ -3,20 +3,147 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundamentos de redes de computadoras</title>
+    <title>Fundamentos de redes de computadoras - CEL01</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        h1 {
+            border-bottom: 2px solid #0056b3;
+            padding-bottom: 10px;
+            color: #0056b3;
+        }
+
+        /* Estructura principal en 2 columnas */
+        .contenedor-principal {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        /* Columna izquierda (Lista de integrantes) */
+        .columna-izquierda {
+            flex: 2;
+            min-width: 300px;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        /* Columna derecha (Barra lateral / Perfiles estilo anuncio) */
+        .columna-derecha {
+            flex: 1;
+            min-width: 280px;
+            background: #eef5ff;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #0056b3;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .tarjeta-perfil {
+            background: #ffffff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            border: 1px solid #d0e1f9;
+        }
+
+        .tarjeta-perfil h4 {
+            margin-top: 0;
+            color: #0056b3;
+        }
+
+        img {
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>Fundamentos de redes de computadoras</h1>
+    <h1>Fundamentos de redes de computadoras - CEL01</h1>
 
-    <h2>Integrantes:</h2>
-    <ul>
-        <li>Martínez Vivian Aranda (2243039896)</li>
-        <li>Maya Castillo Andrea Viridiana (2243042099)</li>
-        <li>Pacheco Mendoza Katia Michelle (2243039789)</li>
-        <li>Quintana Gomez Juan Salvador (2243041305)</li>
-        <li>Salgado Guerrero Ronaldo (2243000813)</li>
-    </ul>
+    <div class="contenedor-principal">
+        
+        <!-- COLUMNA IZQUIERDA: LISTA PRINCIPAL -->
+        <div class="columna-izquierda">
+            <h2>Integrantes del Equipo:</h2>
+            <ul>
+                <li>
+                    <strong>CESAR BENAVIDES ALVAREZ</strong>
+                </li>
+                <li>
+                    <strong>Martínez Vivian Aranda</strong> (2243039896)
+                    <br>
+                    <img src="imagen2.jpg" alt="Imagen 2" width="250">
+                </li>
+                <li>
+                    <strong>Maya Castillo Andrea Viridiana</strong> (2243042099)
+                    <br>
+                    <img src="imagen3.jpg" alt="Imagen 3" width="250">
+                </li>
+                <li>
+                    <strong>Pacheco Mendoza Katia Michelle</strong> (2243039789)
+                    <br>
+                    <img src="imagen4.jpg" alt="Imagen 4" width="250">
+                </li>
+                <li>
+                    <strong>Quintana Gomez Juan Salvador</strong> (2243041305)
+                    <br>
+                    <img src="imagen5.jpg" alt="Imagen 5" width="250">
+                </li>
+                <li>
+                    <strong>Salgado Guerrero Ronaldo</strong> (2243000813)
+                    <br>
+                    <img src="imagen6.jpg" alt="Imagen 6" width="250">
+                </li>
+            </ul>
+        </div>
+
+        <!-- COLUMNA DERECHA: PERFILES Y DESCRIPCIONES (ESTILO ANUNCIO / SIDEBAR) -->
+        <div class="columna-derecha">
+            <h3>Perfiles de los Integrantes</h3>
+
+            <div class="tarjeta-perfil">
+                <h4>Vivian Aranda</h4>
+                <p>Actualmente estudio Ingeniería Electrónica. Siempre me ha gustado entender cómo funcionan las cosas, me encanta desarmar dispositivos, analizar sus partes y volver a armarlos. Más allá de las aulas, me mueve una idea muy clara: quiero que esta carrera sea mi herramienta para ayudar a los demás y aportar mejoras reales a la sociedad.</p>
+            </div>
+
+            <div class="tarjeta-perfil">
+                <h4>Andrea Viridiana (Viry)</h4>
+                <p>Soy una estudiante de Ingeniería Electrónica la cual le gusta el estudio de los circuitos electrónicos y le encantaría estudiar más de una carrera. Me gusta aprender y estudiar nuevas cosas y espero grandes cosas para mi futuro.</p>
+            </div>
+
+            <div class="tarjeta-perfil">
+                <h4>Katia Michelle</h4>
+                <p>Soy una persona curiosa, creativa y apasionada por aprender. Estudio Ingeniería Electrónica y disfruto descubrir nuevas posibilidades en la tecnología. Sueño con desarrollar proyectos que vayan más allá de lo técnico y que puedan mejorar la vida de las personas. Para mí, cada aprendizaje es una oportunidad para crecer y convertir mis ideas en algo significativo.</p>
+            </div>
+
+            <div class="tarjeta-perfil">
+                <h4>Ronaldo Salgado</h4>
+                <p>Estudiante de Ingeniería Electrónica, apasionado por el básquetbol y la música. Me caracterizo por ser una persona perseverante, que no se rinde fácilmente y busca soluciones hasta lograr sus objetivos. Me gusta aprender cosas nuevas, superar retos y mejorar continuamente.</p>
+            </div>
+        </div>
+
+    </div>
 
 </body>
 </html>
